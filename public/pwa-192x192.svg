@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Dark background circle -->
+  <circle cx="96" cy="96" r="96" fill="#0a0a0a"/>
+  <!-- Outer ring -->
+  <circle cx="96" cy="96" r="88" fill="none" stroke="#7c3aed" stroke-width="2"/>
+  <!-- D20 polygon (icosahedron face) -->
+  <polygon points="96,24 156,64 156,128 96,168 36,128 36,64" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <!-- Inner triangle top -->
+  <polygon points="96,24 156,64 36,64" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+  <!-- Inner triangle bottom -->
+  <polygon points="36,128 156,128 96,168" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+  <!-- Center lines -->
+  <line x1="96" y1="24" x2="96" y2="64" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="156" y1="64" x2="96" y2="64" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="36" y1="64" x2="96" y2="64" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="36" y1="64" x2="36" y2="128" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="156" y1="64" x2="156" y2="128" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="36" y1="128" x2="96" y2="128" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="156" y1="128" x2="96" y2="128" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="96" y1="128" x2="96" y2="168" stroke="#a78bfa" stroke-width="1.5"/>
+  <!-- Number 20 in center -->
+  <text x="96" y="104" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#a78bfa">20</text>
+  <!-- Fang motif below the die -->
+  <path d="M80,148 L88,162 L96,152 L104,162 L112,148" fill="none" stroke="#ef4444" stroke-width="2" stroke-linejoin="round"/>
+</svg>
